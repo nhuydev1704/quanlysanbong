@@ -21,6 +21,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Hello />} />
+        <Route path="/manage" element={<Hello />} />
       </Routes>
     </Router>
   );
